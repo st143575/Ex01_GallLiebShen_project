@@ -3,7 +3,7 @@ package de.unistuttgart.vis.dsass2019.ex01.p2;
  * This class implements a SpeedList
  * 
  * @author David Lieb: st161483@stud.uni-stuttgart.de
- * @author Robert Gall: 
+ * @author Robert Gall: ???
  * @author Chong Shen: st143575@stud.uni-stuttgart.de
  * @version 20.04.2019
  * @param <T>
@@ -87,7 +87,7 @@ public class SpeedList<T> implements ISpeedList<T> {
 		head.setNextNode(newNode);
 		size++;
 		
-		//Ab dem neuenten Knoten bekommt jeder neue Knoten einen Zeiger auf den achtnächsten Knoten.
+		//Ab dem neuenten Knoten bekommt jeder neue Knoten einen Zeiger auf den achtnaechsten Knoten.
 		if (size >= 8) {
 			Node<T> node = newNode;
 			for (int i = 0; i < 8; i++) {
@@ -108,7 +108,7 @@ public class SpeedList<T> implements ISpeedList<T> {
 		
 		Node<T> node = head.getNextNode();
 		
-		//Es wird versucht möglichst oft die Operation getNext8thNode zu verwenden, damit es einen schnelleren Listenzugriff gibt.
+		//Es wird versucht moeglichst oft die Operation getNext8thNode zu verwenden, damit es einen schnelleren Listenzugriff gibt.
 		for (int i = 0; i < pos%8; i++) {
 			node = node.getNextNode();
 		}
