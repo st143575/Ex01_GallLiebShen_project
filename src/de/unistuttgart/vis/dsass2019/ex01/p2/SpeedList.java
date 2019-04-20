@@ -1,13 +1,19 @@
 package de.unistuttgart.vis.dsass2019.ex01.p2;
-
+/**
+ * This class implements a SpeedList
+ * 
+ * @author David Lieb: st161483@stud.uni-stuttgart.de
+ * @author Robert Gall: 
+ * @author Chong Shen: st143575@stud.uni-stuttgart.de
+ * @version 20.04.2019
+ * @param <T>
+ */
 public class SpeedList<T> implements ISpeedList<T> {
 	
 	/**
-	 * This class represents the Node of a List
-	 * 
-	 * @author TODO
+	 * This class implements a Node of which the List consists.
 	 *
-	 * @param <T>
+	 * @param <S>
 	 */
 	class Node<S> {
 		
