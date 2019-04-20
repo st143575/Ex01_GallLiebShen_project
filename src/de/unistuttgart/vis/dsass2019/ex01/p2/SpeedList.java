@@ -130,21 +130,4 @@ public class SpeedList<T> implements ISpeedList<T> {
 		return this.getElementAt(pos + 8);
 	}
 
-	public static void main(String[]args) throws Exception {
-		
-		SpeedList<Integer> list = new SpeedList<>();
-		
-		for (int i = 1000; i >= 0; i--) {
-			list.prepend(i);
-		}
-		System.out.println(list.size());
-		
-		for (int i = 0; i<list.size(); i++) {
-			System.out.println(list.getElementAt(i));
-		}
-		for (int i = 0; i<list.size()-8; i++) {
-			System.out.println(list.getNext8thElementOf(i));
-		}
-	}
-
 }
