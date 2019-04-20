@@ -47,6 +47,30 @@
 \indent Schritt 1:\quad [12\ 15\ 21\ 22\ 24\ 31\ 40\ \fbox{48}\ 55\ 59\ 71\ 88\ 91\ 96\ 97]\\
 \indent Schritt 2:\quad [12\ 15\ 21\ \fbox{22}\ 24\ 31\ 40]\ 48\ [55\ 59\ 71\ 88\ 91\ 96\ 97]\\
 \indent Schritt 3:\quad [12\ 15\ 21]\ \fbox{22}\ [24\ 31\ 40]\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
-\indent Schritt 4:\quad 12\ 15\ 21\ 22\ [24]\ \fbox{31}\ [40]\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 4:\quad 12\ 15\ 21\ 22\ [24]\ \fbox{31}\ [40]\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\\\
+
+
+\noindent \textbf{Aufgabe 4} \\
+Fall 1:\ F"ur aufsteigend sortierte Daten:\\
+\indent\indent InsertionSort,\ BubbleSort\\
+In der Aufgabestellung steht, dass die Daten am schnellsten aufsteigend sortiert werden sollen. Im Fall 1 sind die Daten schon aufsteigend sortiert, also im besten Fall. Deswegen haben InsertionSort und BubbleSort die kleinste Anzahl der Vergleiche, und zwar jeweils circa n Vergleiche.\\\\
+Fall 2:\ F"ur absteigend sortierte Daten:\\
+\indent\indent MergeSort\\
+Im Fall 2 sind die Daten absteigend sortiert und gerade umgekehrt zur Anforderung der Aufgabe. In diesem Fall hat MergeSort die kleinste Anzahl der Vergleiche $n\log_{2}n$\ .\\\\
+Fall 3:\ F"ur unsortierte Daten:\\
+\indent\indent MergeSort, Quicksort\\
+F\"ur unsortierte Daten haben MergeSort und Quicksort loglineare Komplexit\"at, und zwar $n\log_{2}n$ bei MergeSort und $1,386n\log_{2}n$ bei QuickSort.
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
