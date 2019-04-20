@@ -1,0 +1,52 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+	\LARGE \textbf{Datenstrukturen und Algorithmen}\\
+	[0.5in]
+	\Large \textbf{\"Ubungsblatt 1}\\
+	[15cm]
+	\end{center}
+	\begin{flushright}
+	\noindent Robert Gall, 3408913, robert@gall.cc\\
+		       Chong Shen, 3111514, shenchong123@yahoo.com\\
+		       David Lieb, 3408382, st161483@stud.uni-stuttgart.de\\
+	\end{flushright}
+
+\end{titlepage}
+
+
+\newpage
+
+\noindent \textbf{Aufgabe 1} \\
+\textit{(a) sequenzielle Suche}\\
+\indent Schritt 1:\quad \fbox{11}\ 22\ 45\ 47\ 66\ 51\ 67\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\indent Schritt 2:\quad 11\ \fbox{22}\ 45\ 47\ 66\ 51\ 67\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\indent Schritt 3:\quad 11\ 22\ \fbox{45}\ 47\ 66\ 51\ 67\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\indent Schritt 4:\quad 11\ 22\ 45\ \fbox{47}\ 66\ 51\ 67\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\indent Schritt 5:\quad 11\ 22\ 45\ 47\ \fbox{66}\ 51\ 67\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\indent Schritt 6:\quad 11\ 22\ 45\ 47\ 66\ \fbox{51}\ 67\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\\
+\indent \textit{bin\"are Suche} \\
+\indent Schritt 1: \quad [11\ 22\ 45\ 47\ 66\ 51\ 67\ \fbox{72}\ 79\ 80\ 81\ 86\ 87\ 88\ 97]\\
+\indent Schritt 2: \quad [11\ 22\ 45\ \fbox{47}\ 66\ 51\ 67]\ 72\ [79\ 80\ 81\ 86\ 87\ 88\ 97]\\
+\indent Schritt 3: \quad [11\ 22\ 45]\ 47\ [66\ \fbox{51}\ 67]\ 72\ 79\ 80\ 81\ 86\ 87\ 88\ 97\\
+\\
+\textit{(b) sequenzielle Suche}\\
+\indent Schritt 1:\quad \fbox{12}\ 15\ 21\ 22\ 24\ 31\ 40\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 2:\quad 12\ \fbox{15}\ 21\ 22\ 24\ 31\ 40\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 3:\quad 12\ 15\ \fbox{21}\ 22\ 24\ 31\ 40\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 4:\quad 12\ 15\ 21\ \fbox{22}\ 24\ 31\ 40\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 5:\quad 12\ 15\ 21\ 22\ \fbox{24}\ 31\ 40\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 6:\quad 12\ 15\ 21\ 22\ 24\ \fbox{31}\ 40\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\\
+\indent \textit{bin\"are Suche} \\
+\indent Schritt 1:\quad [12\ 15\ 21\ 22\ 24\ 31\ 40\ \fbox{48}\ 55\ 59\ 71\ 88\ 91\ 96\ 97]\\
+\indent Schritt 2:\quad [12\ 15\ 21\ \fbox{22}\ 24\ 31\ 40]\ 48\ [55\ 59\ 71\ 88\ 91\ 96\ 97]\\
+\indent Schritt 3:\quad [12\ 15\ 21]\ \fbox{22}\ [24\ 31\ 40]\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+\indent Schritt 4:\quad 12\ 15\ 21\ 22\ [24]\ \fbox{31}\ [40]\ 48\ 55\ 59\ 71\ 88\ 91\ 96\ 97\\
+
+\end{document}
