@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  20 APR 2019 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  20 APR 2019 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -377,43 +377,43 @@ LaTeX Font Info:    ... okay on input line 4.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 24--51
+Underfull \hbox (badness 10000) in paragraph at lines 24--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--51
+Underfull \hbox (badness 10000) in paragraph at lines 24--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--51
+Underfull \hbox (badness 10000) in paragraph at lines 24--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--51
+Underfull \hbox (badness 10000) in paragraph at lines 24--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--51
+Underfull \hbox (badness 10000) in paragraph at lines 24--47
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 59.
+(Font)              <12> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 59.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 59.
+(Font)              <6> on input line 55.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--63
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--63
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
 
  []
 
@@ -432,7 +432,7 @@ msfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on Blatt1.pdf (3 pages, 58060 bytes).
+Output written on Blatt1.pdf (3 pages, 58116 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
